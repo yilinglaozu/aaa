@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/banner"
+        app:isShowNumberIndicator="true"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:isShowIndicatorOnlyOne="true"
+        app:isClipChildrenMode="true"
+        app:AutoPlayTime="2000"
+        ></com.stx.xhb.xbanner.XBanner>
+</LinearLayout>
